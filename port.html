@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Meu Portfólio</title>
+
+    <style>
+       
+        body {
+            margin: 0;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, sans-serif;
+        }
+
+       
+        header {
+            background-color: #000000;
+            color: rgb(252, 252, 252);
+            text-align: center;
+            padding: 18px;
+            position: fixed;
+            top: 0;
+            width: 100%;
+        }
+
+        header h2 {
+            margin: 5px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 10px;
+        }
+
+       
+        nav a:hover {
+            color: rgb(252, 252, 252);
+        }
+
+       
+        section {
+            padding: 80px 30px;
+            margin-bottom: 10px;
+        }
+
+       
+        #introducao {
+            background-color: #060122;
+            margin-top: 100px;
+        }
+
+        #introducao h1 {
+            font-size: 40px;
+            text-align: center;
+            color: #f8fcf8;
+        }
+
+        #introducao p {
+            font-size: 18px;
+            text-align: center;
+        }
+
+       
+        .banner {
+            background-image: url("https://img.magnific.com/vetores-gratis/fundo-preto-de-estilo-3d-com-camada-de-papel_206725-669.jpg?semt=ais_hybrid&w=740&q=80");
+            background-size: cover;
+            background-position: center;
+            padding: 60px;
+            color: rgb(247, 241, 241);
+        }
+
+       
+        .destaque {
+            color: rgb(8, 8, 8);
+            font-weight: bold;
+        }
+
+       
+        #habilidades {
+            background-color: #fdfdfd;
+        }
+
+        #habilidades h2 {
+            font-size: 35px;
+            text-align: left;
+            color: #000000;
+        }
+
+        #habilidades li {
+            margin: 10px;
+            font-size: 20px;
+        }
+
+       
+        .azul {
+            color: rgb(216, 216, 253);
+            font-weight: bold;
+        }
+
+       
+        .cinza {
+            color: rgb(248, 247, 248);
+            font-weight: bold;
+        }
+
+       
+        #projetos {
+            background-color: #0e0e0e;
+        }
+
+        #projetos h2 {
+            font-size: 35px;
+            text-align: center;
+            color: #ffffff;
+        }
+
+       
+        .projeto1 {
+            background-color: white;
+            border: 2px solid rgba(94, 93, 92, 0);
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        .projeto2 {
+            background-color: white;
+            border: 2px solid rgb(8, 8, 8);
+            padding: 20px;
+        }
+
+        .projeto1 h3,
+        .projeto2 h3 {
+            font-size: 25px;
+            text-align: left;
+        }
+
+
+        #contato {
+            background-color: #100120;
+        }
+
+        #contato h2 {
+            font-size: 35px;
+            text-align: right;
+            color: rgb(248, 248, 248);
+        }
+
+       
+        form {
+            background-color: white;
+            padding: 20px;
+            max-width: 500px;
+            margin: auto;
+        }
+
+        label {
+            display: block;
+            margin-top: 15px;
+        }
+
+        input,
+        textarea,
+        select {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+        }
+
+        textarea {
+            height: 100px;
+        }
+
+        button {
+            margin-top: 15px;
+            padding: 10px 20px;
+            background-color: rgb(10, 10, 10);
+            color: white;
+            border: none;
+        }
+
+       
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        footer a {
+            color: #949494;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- CABEÇALHO -->
+    <header>
+
+        <h2>Suzana Oliveira</h2>
+
+        <!-- MENU -->
+        <nav>
+
+            <a href="#introducao">Início</a>
+
+            <a href="#habilidades">Habilidades</a>
+
+            <a href="#projetos">Projetos</a>
+
+            <a href="#contato">Contato</a>
+
+        </nav>
+
+    </header>
+
+    <!-- CONTEÚDO PRINCIPAL -->
+    <main>
+
+        <!-- INTRODUÇÃO -->
+        <section id="introducao">
+
+            <div class="banner">
+
+                <h1>Suzana Oliveira</h1>
+
+                <p>
+                    Olá! Bem-vindo a minha página, meu nome é Suzana.
+                    Sou estudante de Design de Interfaces Web.
+                   
+                </p>
+
+            </div>
+
+        </section>
+
+        <!-- HABILIDADES -->
+        <section id="habilidades">
+
+            <h2>Minhas Habilidades</h2>
+
+            <hr>
+
+            <ul>
+
+                <li>
+                   Organização
+                </li>
+
+                <li>
+                    Conhecimentos básicos de HTML e CSS
+                </li>
+
+                <li>
+                    Conhecimentos básicos de JavaScript
+                </li>
+
+                <li>
+                    Facilidade para aprender
+                </li>
+
+            </ul>
+
+        </section>
+
+        <!-- PROJETOS -->
+        <section id="projetos">
+
+            <h2>Meus Projetos</h2>
+
+            <hr>
+
+            <!-- PROJETO 1 -->
+            <div class="projeto1">
+
+                <h3>Projeto 1 - Interface de aplicativo de estudos</h3>
+
+                <p>
+                    Este projeto foi desenvolvido utilizando Figma.
+                    O objetivo é apresentar a interface de um aplicativo voltado
+                    para otimizar estudos.
+                </p>
+
+                <a href="https://www.google.com" target="_blank">
+                    Clique aqui para visualizar
+                </a>
+
+            </div>
+
+            <!-- PROJETO 2 -->
+            <div class="projeto2">
+
+                <h3>Projeto 2 - Loja Pet</h3>
+
+                <p>
+                    Este projeto consiste na criação de um site
+                    para uma loja de roupas e acessórios para
+                    cães e gatos.
+                </p>
+
+                <a href="https://www.google.com" target="_blank">
+                    Clique aqui para visualizar
+                </a>
+
+            </div>
+
+        </section>
+
+        <!-- CONTATO -->
+        <section id="contato">
+
+            <h2>Entre em Contato</h2>
+
+            <form>
+
+                <!-- Nome -->
+                <label for="nome">
+                    Nome:
+                </label>
+
+                <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+
+                <!-- E-mail -->
+                <label for="email">
+                    E-mail:
+                </label>
+
+                <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+
+                <!-- Mensagem -->
+                <label for="mensagem">
+                    Mensagem:
+                </label>
+
+                <textarea id="mensagem" name="mensagem" placeholder="Digite sua mensagem" required></textarea>
+
+                <!-- Como conheceu -->
+                <label for="conheceu">
+                    Como nos conheceu?
+                </label>
+
+                <select id="conheceu" name="conheceu" required>
+
+                    <option value="">
+                        Escolha uma opção
+                    </option>
+
+                    <option value="google">
+                        Google
+                    </option>
+
+                    <option value="redes-sociais">
+                        Redes sociais
+                    </option>
+
+                    <option value="amigos">
+                        Indicação de amigos
+                    </option>
+
+                </select>
+
+                <!-- Botão -->
+                <button type="submit">
+                    Enviar
+                </button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <!-- RODAPÉ -->
+    <footer>
+
+        <p>
+            © 2026 - Suzana Oliveira
+        </p>
+
+        <p>
+            E-mail:
+            <a href="mailto:suzana@email.com">
+                suzana@email.com
+            </a>
+        </p>
+
+    </footer>
+
+</body>
+
+</html>

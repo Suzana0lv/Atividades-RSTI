@@ -1,0 +1,185 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: #0f0f0f;
+    color: #f2f2f2;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header{
+    background-color: #171717;
+    padding: 30px;
+    text-align: center;
+    border-bottom: 3px solid #ff2d75;
+}
+
+h1{
+    color: #ff2d75;
+    font-size: 60px;
+    letter-spacing: 3px;
+    margin-bottom: 25px;
+}
+
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: .3s;
+}
+
+nav a:hover{
+    color: #ff2d75;
+}
+
+
+main{
+    width: 85%;
+    max-width: 1100px;
+    margin: 60px auto;
+}
+
+
+.banner{
+    text-align: center;
+}
+
+.banner img{
+    width: 100%;
+    max-width: 800px;
+    border-radius: 12px;
+    margin-bottom: 40px;
+    box-shadow: 0 0 25px rgba(255,45,117,.3);
+}
+
+.banner h2{
+    color: #ff2d75;
+    font-size: 38px;
+    margin-bottom: 30px;
+}
+
+.banner p{
+    max-width: 850px;
+    margin: 25px auto;
+    line-height: 1.8;
+    font-size: 20px;
+    text-align: justify;
+}
+
+section{
+    margin-top: 90px;
+}
+
+
+#habilidades h2{
+    text-align: center;
+    color: #ff2d75;
+    margin-bottom: 20px;
+}
+
+hr{
+    width: 180px;
+    margin: 0 auto 40px;
+    border: 1px solid #ff2d75;
+}
+
+#habilidades ul{
+    width: fit-content;
+    margin: auto;
+    line-height: 2;
+    font-size: 20px;
+}
+
+
+#contato h2{
+    text-align: center;
+    color: #ff2d75;
+    margin-bottom: 40px;
+}
+
+form{
+    max-width: 600px;
+    margin: auto;
+}
+
+label{
+    display: block;
+    margin-top: 25px;
+    margin-bottom: 8px;
+    font-size: 18px;
+}
+
+input,
+textarea{
+    width: 100%;
+    padding: 14px;
+    border-radius: 6px;
+    border: none;
+    font-size: 16px;
+}
+
+textarea{
+    height: 170px;
+    resize: none;
+}
+
+/* BOTÃO */
+
+button{
+    display: block;
+    margin: 40px auto 0;
+    padding: 15px 45px;
+    font-size: 18px;
+    background-color: #ff2d75;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+button:hover{
+    background-color: white;
+    color: #111;
+    transform: scale(1.05);
+}
+
+/* CITAÇÃO */
+
+blockquote{
+    max-width: 700px;
+    margin: 90px auto;
+    padding: 35px;
+    text-align: center;
+    font-size: 28px;
+    font-style: italic;
+    color: #ff2d75;
+    background-color: #1a1a1a;
+    border-left: 6px solid #ff2d75;
+    border-radius: 10px;
+    line-height: 1.6;
+}
+
+/* RODAPÉ */
+
+footer{
+    margin-top: 80px;
+    padding: 30px;
+    text-align: center;
+    background-color: #171717;
+    color: #888;
+    border-top: 3px solid #ff2d75;
+}
